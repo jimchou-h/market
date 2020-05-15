@@ -8,7 +8,9 @@ const prodConfig = {
   mode: 'production',
   // 代码压缩
   optimization: {
-    minimizer: [new UglifyJsPlugin()]
+    minimizer: [
+      // new UglifyJsPlugin()
+    ]
   }
 }
 
